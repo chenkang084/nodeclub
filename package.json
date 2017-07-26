@@ -60,10 +60,13 @@
     "mocha": "2.4.5",
     "nock": "7.5.0",
     "pedding": "1.0.0",
+    "shelljs": "^0.7.8",
     "should": "8.3.0",
     "supertest": "1.2.0"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node app.js",
+    "start:db": "node ./bin/db.start.js"
   }
 }

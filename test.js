@@ -1,6 +1,6 @@
 var shell = require("shelljs");
 
-shell.exec("cd D:/Program Files/MongoDB && ./mongod --dbpath ../db/node_club_dev/", { async: true }, function(
+shell.exec("cd D:/test && tail  a.log", { async: true }, function(
   code,
   stdout,
   stderr
@@ -12,4 +12,4 @@ shell.exec("cd D:/Program Files/MongoDB && ./mongod --dbpath ../db/node_club_dev
   console.log("Program stderr:", stderr);
 });
 
-console.log("....");
+
